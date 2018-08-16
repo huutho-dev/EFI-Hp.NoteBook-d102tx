@@ -1,0 +1,74 @@
+5:007  0:169  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+5:007  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+5:007  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:007  0:000    (Xsdt: 9CFFE210, Rsdt: 9CFFE124)
+5:007  0:000    9CFFE210: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 172
+5:007  0:000    9CFFE124: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+5:007  0:000    Tables in Xsdt: 17
+5:007  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+5:007  0:000        (Dsdt: 9CFE1000, Facs: 9CFB4000, XDsdt: 9CFE1000, XFacs: 0)
+5:007  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79839
+5:009  0:001        9CFB4000: 'FACS', Ver: 2, Len: 64
+5:009  0:000    1. 9CFFD000: 'UEFI', '225D', Rev: 1, Len: 566
+5:009  0:000    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+5:009  0:000    3. 9CFF9000: 'ASF!', '225D', Rev: 32, Len: 165
+5:009  0:000    4. 9CFF7000: 'HPET', '225D', Rev: 1, Len: 56
+5:009  0:000    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+5:009  0:000    6. 9CFF5000: 'MCFG', '225D', Rev: 1, Len: 60
+5:009  0:000    7. 9CFDE000: 'SSDT', '225D', Rev: 1, Len: 8232
+5:009  0:000    8. 9CFDC000: 'BOOT', '225D', Rev: 1, Len: 40
+5:009  0:000    9. 9CFDB000: 'LPIT', '225D', Rev: 1, Len: 148
+5:009  0:000    10. 9CFD9000: 'ASPT', '225D', Rev: 7, Len: 52
+5:009  0:000    11. 9CFD8000: 'DBGP', '225D', Rev: 1, Len: 52
+5:009  0:000    12. 9CFD0000: 'SSDT', '225D', Rev: 1, Len: 1337
+5:009  0:000    13. 9CFCF000: 'SSDT', '225D', Rev: 1, Len: 2776
+5:009  0:000    14. 9CFCB000: 'SSDT', '225D', Rev: 1, Len: 14078
+5:009  0:000    15. 9CFC6000: 'SSDT', '225D', Rev: 1, Len: 14190
+5:009  0:000    16. 9CFCA000: 'BGRT', '225D', Rev: 1, Len: 56
+5:009  0:000    Tables in Rsdt: 17
+5:009  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+5:009  0:000        (Dsdt: 9CFE1000, Facs: 9CFB4000, XDsdt: 9CFE1000, XFacs: 0)
+5:009  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79839
+5:010  0:001        9CFB4000: 'FACS', Ver: 2, Len: 64
+5:010  0:000    1. 9CFFD000: 'UEFI', '225D', Rev: 1, Len: 566
+5:010  0:000    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+5:010  0:000    3. 9CFF9000: 'ASF!', '225D', Rev: 32, Len: 165
+5:010  0:000    4. 9CFF7000: 'HPET', '225D', Rev: 1, Len: 56
+5:010  0:000    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+5:010  0:000    6. 9CFF5000: 'MCFG', '225D', Rev: 1, Len: 60
+5:010  0:000    7. 9CFDE000: 'SSDT', '225D', Rev: 1, Len: 8232
+5:010  0:000    8. 9CFDC000: 'BOOT', '225D', Rev: 1, Len: 40
+5:010  0:000    9. 9CFDB000: 'LPIT', '225D', Rev: 1, Len: 148
+5:010  0:000    10. 9CFD9000: 'ASPT', '225D', Rev: 7, Len: 52
+5:010  0:000    11. 9CFD8000: 'DBGP', '225D', Rev: 1, Len: 52
+5:010  0:000    12. 9CFD0000: 'SSDT', '225D', Rev: 1, Len: 1337
+5:010  0:000    13. 9CFCF000: 'SSDT', '225D', Rev: 1, Len: 2776
+5:010  0:000    14. 9CFCB000: 'SSDT', '225D', Rev: 1, Len: 14078
+5:010  0:000    15. 9CFC6000: 'SSDT', '225D', Rev: 1, Len: 14190
+5:010  0:000    16. 9CFCA000: 'BGRT', '225D', Rev: 1, Len: 56
+5:010  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+5:010  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+5:010  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+5:010  0:000    (Rsdt: 9CFFE038)
+5:010  0:000    9CFFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+5:010  0:000    Tables in Rsdt: 17
+5:011  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+5:011  0:000        (Dsdt: 9CFE1000, Facs: 9CFB4000, XDsdt: 9CFE1000, XFacs: 0)
+5:011  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79839
+5:012  0:001        9CFB4000: 'FACS', Ver: 2, Len: 64
+5:012  0:000    1. 9CFFD000: 'UEFI', '225D', Rev: 1, Len: 566
+5:012  0:000    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+5:012  0:000    3. 9CFF9000: 'ASF!', '225D', Rev: 32, Len: 165
+5:012  0:000    4. 9CFF7000: 'HPET', '225D', Rev: 1, Len: 56
+5:012  0:000    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+5:012  0:000    6. 9CFF5000: 'MCFG', '225D', Rev: 1, Len: 60
+5:012  0:000    7. 9CFDE000: 'SSDT', '225D', Rev: 1, Len: 8232
+5:012  0:000    8. 9CFDC000: 'BOOT', '225D', Rev: 1, Len: 40
+5:012  0:000    9. 9CFDB000: 'LPIT', '225D', Rev: 1, Len: 148
+5:012  0:000    10. 9CFD9000: 'ASPT', '225D', Rev: 7, Len: 52
+5:012  0:000    11. 9CFD8000: 'DBGP', '225D', Rev: 1, Len: 52
+5:012  0:000    12. 9CFD0000: 'SSDT', '225D', Rev: 1, Len: 1337
+5:012  0:000    13. 9CFCF000: 'SSDT', '225D', Rev: 1, Len: 2776
+5:012  0:000    14. 9CFCB000: 'SSDT', '225D', Rev: 1, Len: 14078
+5:012  0:000    15. 9CFC6000: 'SSDT', '225D', Rev: 1, Len: 14190
+5:012  0:000    16. 9CFCA000: 'BGRT', '225D', Rev: 1, Len: 56

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+	<LoadKernel>
+		<GPT Guid="B0CBBFEE-AE03-01D1-B09F-65D801D7E800" />
+		<Kernel Arguments="product=bootagent quiet" Path="/acroldr/kernel64.dat" />
+		<Ramdisk Path="/acroldr/ramdisk64.dat" />
+		<Ramdisk Path="/acroldr/ramdisk64_cfg.dat" />
+		<Hash Path="/acroldr/agent_ramdisk64.sgn" />
+	</LoadKernel>
+	<Jobs>
+		<RemoveFakeBootNext />
+	</Jobs>
+</Config>
